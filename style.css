@@ -1,0 +1,29 @@
+ul {
+  list-style-type: none;
+}
+a:hover {
+  cursor: pointer;
+}
+.link {
+  color: #272323;
+}
+.link:hover {
+  color: #544cac;
+}
+.hero-taitle {
+  color: #353434;
+}
+.hero-taitle .accent {
+  color: #ff5c00;
+}
+.button-taitle {
+  background-color: #bdbbd9;
+  color: #38318b;
+  border: 2px solid #bdbbd9;
+  border-radius: 6px;
+}
+.button-taitle:hover {
+  color: #ffffff;
+  background-color: #544cac;
+  border-color: #544cac;
+}
