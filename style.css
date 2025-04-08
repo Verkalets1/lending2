@@ -1,21 +1,54 @@
+/* general */
 ul {
   list-style-type: none;
 }
 a:hover {
   cursor: pointer;
 }
+/* header */
 .link {
   color: #272323;
 }
 .link:hover {
   color: #544cac;
 }
+/* sections */
 .hero-taitle {
   color: #353434;
 }
 .hero-taitle .accent {
   color: #ff5c00;
 }
+.smal-text {
+  color: #ff5c00;
+}
+.search-section {
+  color: #353434;
+}
+.columns {
+  background-color: #f5f7ff;
+  color: #323232;
+  border-radius: 8px;
+}
+.columns-text {
+  color: #a8a8a8;
+}
+.numer-one {
+  color: #9444c9;
+  background-color: #f3e0ff;
+  border-radius: 6px;
+}
+.numer-two {
+  color: #626fff;
+  background-color: #e7e9fe;
+  border-radius: 6px;
+}
+.numer-three {
+  color: #ff5c00;
+  background-color: #ffdecc;
+  border-radius: 6px;
+}
+/* button */
 .button-taitle {
   background-color: #bdbbd9;
   color: #38318b;
