@@ -85,6 +85,14 @@ a:hover {
 .text-f {
   color: #8f8f8f;
 }
+/* sections job */
+.title-jobs {
+  color: #353434;
+}
+.text-job {
+  color: #a8a8a8;
+}
+
 /* button */
 .button-taitle {
   background-color: #bdbbd9;
