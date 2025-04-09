@@ -48,6 +48,43 @@ a:hover {
   background-color: #ffdecc;
   border-radius: 6px;
 }
+/* taitke us */
+.taitle-us {
+  color: #353434;
+}
+.text-us {
+  color: #a8a8a8;
+}
+.compass-one {
+  background-color: #6156dc;
+  border-radius: 7px;
+}
+.compass-two {
+  background-color: #ef6010;
+  border-radius: 7px;
+}
+.compss-three {
+  background-color: #a73eed;
+  border-radius: 7px;
+}
+.Trusted {
+  color: #323232;
+}
+.Easy-to-Use {
+  color: #323232;
+}
+.Faster {
+  color: #323232;
+}
+.text-t {
+  color: #8f8f8f;
+}
+.text-e {
+  color: #8f8f8f;
+}
+.text-f {
+  color: #8f8f8f;
+}
 /* button */
 .button-taitle {
   background-color: #bdbbd9;
