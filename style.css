@@ -1,4 +1,7 @@
 /* general */
+a {
+  text-decoration: none;
+}
 ul {
   list-style-type: none;
 }
@@ -92,7 +95,84 @@ a:hover {
 .text-job {
   color: #a8a8a8;
 }
-
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #323232;
+}
+.card:hover {
+  background-color: #f9faff;
+}
+.subtitle {
+  color: #4238af;
+}
+.jobs_card_accent {
+  color: #a8a8a8;
+}
+/* sections reviews */
+.reviews {
+  color: #353434;
+}
+.reviews_text {
+  color: #a8a8a8;
+}
+.subtitle_reviews {
+  color: #323232;
+}
+.subtitle_reviews_text_one {
+  color: #868686;
+}
+.subtitle_reviews_text_two {
+  color: #383838;
+}
+/* sections statistics */
+.statistics {
+  background-color: #ced5f4;
+  border-radius: 30px;
+  color: #584ec6;
+}
+.statistics_accent {
+  color: #ffffff;
+}
+/* sections price */
+.price {
+  color: #353434;
+}
+.price_text {
+  color: #959595;
+}
+.price_card {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.price_card:hover {
+  background-color: #f9faff;
+}
+.subtitle_price {
+  color: #4238af;
+}
+.price_number {
+  color: #353434;
+}
+.price_text_vercion {
+  color: #8a86b9;
+}
+.subtitle_price_text {
+  color: #a8a8a8;
+}
+/* sections footer */
+.title_footer {
+  background-color: #dbe2ff;
+}
+.subtitle_footer {
+  color: #353434;
+}
+.footer_text {
+  color: #717171;
+}
+.footer_link {
+  color: #3a2e5c;
+}
 /* button */
 .button-taitle {
   background-color: #bdbbd9;
@@ -101,6 +181,72 @@ a:hover {
   border-radius: 6px;
 }
 .button-taitle:hover {
+  color: #ffffff;
+  background-color: #544cac;
+  border-color: #544cac;
+}
+.button_people_one {
+  color: #38318b;
+  background-color: #bdbbd9;
+  border-radius: 47px;
+  border: 2px solid #bdbbd9;
+}
+.button_people_two {
+  color: #38318b;
+  background-color: #bdbbd9;
+  border-radius: 47px;
+  border: 2px solid #bdbbd9;
+}
+.button_people_one:hover {
+  color: #ffffff;
+  background-color: #544cac;
+  border-color: #544cac;
+}
+.button_people_two:hover {
+  color: #ffffff;
+  background-color: #544cac;
+  border-color: #544cac;
+}
+.button_main_Jobs {
+  color: #38318b;
+  background-color: #bdbbd9;
+  border-radius: 47px;
+  border: 2px solid #bdbbd9;
+}
+.button_main_Jobs:hover {
+  color: #ffffff;
+  background-color: #544cac;
+  border-color: #544cac;
+}
+.button_free {
+  color: #38318b;
+  background-color: #bdbbd9;
+  border-radius: 50px;
+  border: 2px solid #bdbbd9;
+}
+.button_free:hover {
+  color: #ffffff;
+  background-color: #544cac;
+  border-color: #544cac;
+}
+.button_premium {
+  color: #38318b;
+  background-color: #bdbbd9;
+  border-radius: 50px;
+  border: 2px solid #bdbbd9;
+}
+.button_premium:hover {
+  color: #ffffff;
+  background-color: #544cac;
+  border-color: #544cac;
+}
+.button_platnium {
+  color: #38318b;
+  background-color: #bdbbd9;
+  border-radius: 50px;
+  border: 2px solid #bdbbd9;
+}
+.button_platnium:hover {
   color: #ffffff;
   background-color: #544cac;
   border-color: #544cac;

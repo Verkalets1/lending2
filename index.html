@@ -117,38 +117,55 @@
         </p>
         <img src="./images/left arrow.png" alt="left arrow" />
         <img src="./images/right arrow.png" alt="right arrow" />
-        <img src="./images/boy.jpg" alt="boy" />
-        <h3>Database Programmer</h3>
-        <div>
-          <p>Marraz Team</p>
-          <p>&#128176; &dollar;14,000 - &dollar;25,000 /monthly</p>
-          <p>London,Enlend View map</p>
-          <img src="./images/Group 54.png" alt="heart" />
-          <button type="button">Apply Now</button>
-        </div>
-        <img src="./images/guy with glasses.jpg" alt="boy on glasses" />
-        <h3>Database Programmer</h3>
-        <div>
-          <p>Marraz Team</p>
-          <p>&dollar;14,000 - &dollar;25,000 /monthly</p>
-          <p>London,Enlend View map</p>
-          <img src="./images/Group 54 (1).png" alt="heart" />
-          <button type="button">Apply Now</button>
-        </div>
-        <img src="./images/boy.jpg" alt="boy" />
-        <h3>Database Programmer</h3>
-        <div>
-          <p>Marraz Team</p>
-          <p>&dollar;14,000 - &dollar;25,000 /monthly</p>
-          <p>London,Enlend View map</p>
-          <img src="./images/Group 54 (1).png" alt="heart" />
-          <button type="button">Apply Now</button>
-        </div>
-        <button type="button">View More</button>
+        <ul>
+          <li class="card">
+            <img src="./images/boy.jpg" alt="boy" />
+            <h3>Database Programmer</h3>
+            <div>
+              <p class="subtitle">Marraz Team</p>
+              <p>
+                &dollar;14,000 - &dollar;25,000
+                <span class="jobs_card_accent">/monthly</span>
+              </p>
+              <p>London,Enlend View map</p>
+              <img src="./images/Group 54.png" alt="heart" />
+              <button class="button_people_one" type="button">Apply Now</button>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/guy with glasses.jpg" alt="boy on glasses" />
+            <h3>Database Programmer</h3>
+            <div>
+              <p class="subtitle">Marraz Team</p>
+              <p>
+                &dollar;14,000 - &dollar;25,000
+                <span class="jobs_card_accent">/monthly</span>
+              </p>
+              <p>London,Enlend View map</p>
+              <img src="./images/Group 54 (1).png" alt="heart" />
+              <button class="button_people_two" type="button">Apply Now</button>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/boy.jpg" alt="boy" />
+            <h3>Database Programmer</h3>
+            <div>
+              <p class="subtitle">Marraz Team</p>
+              <p>
+                &dollar;14,000 - &dollar;25,000
+                <span class="jobs_card_accent">/monthly</span>
+              </p>
+              <p>London,Enlend View map</p>
+              <img src="./images/Group 54 (1).png" alt="heart" />
+              <button class="button_people_one" type="button">Apply Now</button>
+            </div>
+          </li>
+        </ul>
+        <button class="button_main_Jobs" type="button">View More</button>
       </section>
       <section>
-        <h2>What Our Customer Says</h2>
-        <p>
+        <h2 class="reviews">What Our Customer Says</h2>
+        <p class="reviews_text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam.
@@ -157,10 +174,10 @@
           src="./images/guy in a hat and glasses.png"
           alt="guy with glasses"
         />
-        <h3>William Smith</h3>
-        <p>CEO OF THE LOVE STUDENTS</p>
+        <h3 class="subtitle_reviews">William Smith</h3>
+        <p class="subtitle_reviews_text_one">CEO OF THE LOVE STUDENTS</p>
         <img src="./images/star.png" alt="star" />
-        <p>
+        <p class="subtitle_reviews_text_two">
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam,quis nostrud exercitation ullamco laboris nisi ut
@@ -174,90 +191,102 @@
         <img src="./images/icons.png" alt="icons" />
       </section>
       <section>
-        <h3>36,789</h3>
-        <p>Talented Freelancer</p>
-        <h3>45,973</h3>
-        <p>Visitors</p>
-        <h3>56,461</h3>
-        <p>Contract Made</p>
-        <h3>852k</h3>
-        <p>Companies</p>
+        <ul class="statistics">
+          <li>
+            <h3>36,789</h3>
+            <p class="statistics_accent">Talented Freelancer</p>
+          </li>
+          <li>
+            <h3>45,973</h3>
+            <p class="statistics_accent">Visitors</p>
+          </li>
+          <li>
+            <h3>56,461</h3>
+            <p class="statistics_accent">Contract Made</p>
+          </li>
+          <li>
+            <h3>852k</h3>
+            <p class="statistics_accent">Companies</p>
+          </li>
+        </ul>
       </section>
       <section>
-        <h2>Pricing Plan</h2>
-        <p>
+        <h2 class="price">Pricing Plan</h2>
+        <p class="price_text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam.
         </p>
         <ul>
-          <li>
-            <h3>FREE</h3>
-            <div>
-              <p>0</p>
-              <p>Per month</p>
+          <li class="price_card">
+            <h3 class="subtitle_price">FREE</h3>
+            <div class="subtitle_price_text">
+              <p class="price_number">0</p>
+              <p class="price_text_vercion">Per month</p>
               <p>Lorem ipsum dolor sit amet.</p>
               <p>Lorem ipsum dolor sit amet.</p>
               <p>Sed do eiusmod tempor</p>
-              <button type="button">Purchase Now</button>
+              <button class="button_free" type="button">Purchase Now</button>
             </div>
           </li>
-          <li>
-            <h3>PREMIUM</h3>
-            <div>
-              <p>175</p>
-              <p>Per month</p>
+          <li class="price_card">
+            <h3 class="subtitle_price">PREMIUM</h3>
+            <div class="subtitle_price_text">
+              <p class="price_number">175</p>
+              <p class="price_text_vercion">Per month</p>
               <p>Lorem ipsum dolor sit amet.</p>
               <p>Ut enim ad minim veniam.</p>
               <p>Lorem ipsum dolor sit amet.</p>
-              <button type="button">Purchase Now</button>
+              <button class="button_premium" type="button">Purchase Now</button>
             </div>
           </li>
-          <li>
-            <h3>PLATNIUM</h3>
-            <div>
-              <p>500</p>
-              <p>Per month</p>
+          <li class="price_card">
+            <h3 class="subtitle_price">PLATNIUM</h3>
+            <div class="subtitle_price_text">
+              <p class="price_number">500</p>
+              <p class="price_text_vercion">Per month</p>
               <p>Lorem ipsum dolor sit amet.</p>
               <p>Ut enim ad minim veniam.</p>
               <p>Sed do eiusmod tempor</p>
-              <button type="button">Purchase Now</button>
+              <button class="button_platnium" type="button">
+                Purchase Now
+              </button>
             </div>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <h3>Olearn</h3>
-      <ul>
+    <footer class="title_foote">
+      <h3 class="subtitle_footer">Olearn</h3>
+      <ul class="footer_text">
         <li>About</li>
         <li>What we offer</li>
         <li>Leadership</li>
         <li>Careers</li>
       </ul>
-      <h3>Courses</h3>
-      <ul>
+      <h3 class="subtitle_footer">Courses</h3>
+      <ul class="footer_text">
         <li>Classroom Courses</li>
         <li>Virtual Courses</li>
         <li>E-Learning Courses</li>
         <li>Off Line Courses</li>
       </ul>
-      <h3>Community</h3>
-      <ul>
+      <h3 class="subtitle_footer">Community</h3>
+      <ul class="footer_text">
         <li>Learner</li>
         <li>Partners</li>
         <li>Developers</li>
         <li>Teaching Centre</li>
       </ul>
-      <h3>Quick Links</h3>
-      <ul>
+      <h3 class="subtitle_footer">Quick Links</h3>
+      <ul class="footer_text">
         <li>Home</li>
         <li>Professional Edu</li>
         <li>Courses</li>
         <li>Admissions</li>
       </ul>
-      <h3>More</h3>
-      <ul>
+      <h3 class="subtitle_footer">More</h3>
+      <ul class="footer_text">
         <li>Press</li>
         <li>Inventors</li>
         <li>Helps</li>
@@ -265,12 +294,12 @@
       </ul>
       <img src="./images/Logo.png" alt="Logo" />
       <p>ziro</p>
-      <ul>
-        <li><a href="#"></a>Terms of Use</li>
-        <li><a href="#"></a>Protfolio</li>
-        <li><a href="#"></a>Privacy policy</li>
-        <li><a href="#"></a>Contact us</li>
-        <li><a href="#"></a>FAQ</li>
+      <ul class="footer_link">
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Protfolio</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">FAQ</a></li>
       </ul>
     </footer>
   </body>
