@@ -4,50 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ziro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
         <img src="./images/Logo-Main.png" alt="logo" />
-        <p>ziro</p>
-        <ul>
+        <ul class="header-font-link">
           <li><a class="link" chref="#">home</a></li>
           <li><a class="link" chref="#">pricing</a></li>
           <li><a class="link" chref="#">blog</a></li>
           <li><a class="link" chref="#">becom a member</a></li>
           <li><a class="link" chref="#">about us</a></li>
         </ul>
-        <!-- Search here.... -->
-        <ul>
+        <ul class="header-font-register">
           <li><a class="link" chref="#">login</a></li>
           <li><a class="link" chref="#">sing up</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="section-hero hero">
         <h1 class="hero-taitle">
           Find out talented <span class="accent">freelancer</span> with better
           review faster.
         </h1>
-        <p>
+        <p class="hero-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip.
         </p>
         <button class="button-taitle" type="button">Discover Now</button>
-        <p>Watch Demo</p>
+        <button class="button-pley">
+          <img src="./images/buttom-pley.png" alt="pley" />
+          <span> Watch Demo</span>
+        </button>
         <img src="./images/women.png" alt="girl with laptop" />
       </section>
-      <section>
+      <section class="section-awards">
+        <h2 class="visually-hidden">awards</h2>
         <img src="./images/de singn studio.png" alt="de singn studio" />
         <img src="./images/design and branding.png" alt="design and branding" />
         <img src="./images/greenery.png" alt="greenery" />
         <img src="./images/natural.png" alt="natural" />
         <img src="./images/nature.png" alt="nature" />
         <img src="./images/your company.png" alt="your company" />
+      </section>
+      <section class="section-us">
         <p class="smal-text">How it works</p>
         <h2 class="search-section">Start find a job you love with us easily</h2>
         <ul>
@@ -70,7 +80,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-us">
         <h2 class="taitle-us">Why Choose Us</h2>
         <p class="text-us">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -108,7 +118,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-us">
         <h2 class="title-jobs">Featured Jobs</h2>
         <p class="text-job">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -119,8 +129,8 @@
         <img src="./images/right arrow.png" alt="right arrow" />
         <ul>
           <li class="card">
-            <img src="./images/boy.jpg" alt="boy" />
-            <h3>Database Programmer</h3>
+            <img src="./images/boy.png" alt="boy" />
+            <h3 class="card-h3">Database Programmer</h3>
             <div>
               <p class="subtitle">Marraz Team</p>
               <p>
@@ -133,8 +143,8 @@
             </div>
           </li>
           <li class="card">
-            <img src="./images/guy with glasses.jpg" alt="boy on glasses" />
-            <h3>Database Programmer</h3>
+            <img src="./images/guy with glasses.png" alt="boy on glasses" />
+            <h3 class="card-h3">Database Programmer</h3>
             <div>
               <p class="subtitle">Marraz Team</p>
               <p>
@@ -147,8 +157,8 @@
             </div>
           </li>
           <li class="card">
-            <img src="./images/boy.jpg" alt="boy" />
-            <h3>Database Programmer</h3>
+            <img src="./images/boy.png" alt="boy" />
+            <h3 class="card-h3">Database Programmer</h3>
             <div>
               <p class="subtitle">Marraz Team</p>
               <p>
@@ -163,7 +173,7 @@
         </ul>
         <button class="button_main_Jobs" type="button">View More</button>
       </section>
-      <section>
+      <section class="section-us">
         <h2 class="reviews">What Our Customer Says</h2>
         <p class="reviews_text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -190,27 +200,27 @@
         <img src="./images/right arrow.png" alt="right arrow" />
         <img src="./images/icons.png" alt="icons" />
       </section>
-      <section>
+      <section class="section-us">
         <ul class="statistics">
           <li>
-            <h3>36,789</h3>
+            <h3 class="statistics-prise">36,789</h3>
             <p class="statistics_accent">Talented Freelancer</p>
           </li>
           <li>
-            <h3>45,973</h3>
+            <h3 class="statistics-prise">45,973</h3>
             <p class="statistics_accent">Visitors</p>
           </li>
           <li>
-            <h3>56,461</h3>
+            <h3 class="statistics-prise">56,461</h3>
             <p class="statistics_accent">Contract Made</p>
           </li>
           <li>
-            <h3>852k</h3>
+            <h3 class="statistics-prise">852k</h3>
             <p class="statistics_accent">Companies</p>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-us">
         <h2 class="price">Pricing Plan</h2>
         <p class="price_text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -293,7 +303,6 @@
         <li>Terms</li>
       </ul>
       <img src="./images/Logo.png" alt="Logo" />
-      <p>ziro</p>
       <ul class="footer_link">
         <li><a href="#">Terms of Use</a></li>
         <li><a href="#">Protfolio</a></li>
