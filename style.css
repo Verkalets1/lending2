@@ -370,28 +370,59 @@ p {
   color: #a8a8a8;
 }
 /* sections reviews */
+.kolumn-us {
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+}
 .reviews {
   font-family: 'Oswald', 'sans-serif';
   font-size: 40px;
   font-weight: 600;
   color: #353434;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .reviews_text {
   font-size: 14px;
   color: #a8a8a8;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.reviews-b {
+  margin-bottom: 45px;
 }
 .subtitle_reviews {
   font-weight: 600;
   font-size: 20;
   color: #323232;
+  margin-top: 38px;
+}
+.img-us {
+  display: flex;
+  justify-content: center;
+  gap: 490px;
+}
+.arows {
+  display: flex;
+  justify-content: center;
+}
+.subtitle_reviews-b {
+  margin-bottom: 13px;
 }
 .subtitle_reviews_text_one {
   font-size: 14px;
   color: #868686;
+  margin-bottom: 13px;
 }
 .subtitle_reviews_text_two {
   font-size: 14px;
   color: #383838;
+  margin-bottom: 40px;
 }
 /* sections statistics */
 .statistics-prise {
@@ -402,6 +433,10 @@ p {
   background-color: #ced5f4;
   border-radius: 30px;
   color: #584ec6;
+  display: flex;
+  justify-content: space-around;
+  gap: 110px;
+  padding: 74px 115px;
 }
 .statistics_accent {
   font-size: 16px;
