@@ -531,8 +531,16 @@ p {
 .subtitle_price_text {
   color: #a8a8a8;
 }
-
+.marker-margen {
+  margin-right: 5px;
+}
 /* sections footer */
+.footer-line {
+  border: none;
+  height: 2px;
+  background-color: #625bae;
+  margin: 40px 0 20px;
+}
 .footer-flex {
   display: flex;
   align-items: center;
