@@ -709,3 +709,92 @@ p {
   display: flex;
   align-items: center;
 }
+/* adapt */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+  .hero-text,
+  .hero-taitle {
+    text-align: center;
+  }
+  .awards-img img {
+    width: 50px;
+    height: auto;
+    gap: 20px;
+  }
+  .awards-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .video_art,
+  .girl_art {
+    width: 350px;
+    height: auto;
+  }
+  .statistics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .footer_link {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img-us {
+    gap: 100px;
+  }
+  .taible-video,
+  .flex-heder,
+  .header-box,
+  .header-font-link,
+  .columns-us,
+  .kolumn-us,
+  .card-flex,
+  .price-blok-flex,
+  .footer-flex,
+  .taible-link,
+  .section-hero-teible {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-taitle {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .search-section,
+  .taitle-us,
+  .reviews,
+  .statistics-prise,
+  .price {
+    font-size: 24px;
+  }
+
+  .text-us-accent {
+    margin: 0 20px;
+  }
+
+  .text-job-centr {
+    margin: 0 20px;
+  }
+
+  .columns,
+  .card,
+  .price_card {
+    padding: 20px;
+  }
+
+  .subtitle,
+  .subtitle_price,
+  .subtitle_reviews {
+    font-size: 16px;
+  }
+
+  .price_number {
+    font-size: 32px;
+  }
+}
