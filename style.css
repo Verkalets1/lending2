@@ -711,12 +711,13 @@ p {
 }
 /* adapt */
 @media (max-width: 480px) {
-  .container {
-    padding: 0 16px;
-  }
   .hero-text,
   .hero-taitle {
     text-align: center;
+  }
+  .body_glases_img {
+    width: 300px;
+    margin: auto;
   }
   .awards-img img {
     width: 50px;
@@ -746,6 +747,7 @@ p {
   .img-us {
     gap: 100px;
   }
+
   .taible-video,
   .flex-heder,
   .header-box,
@@ -796,5 +798,151 @@ p {
 
   .price_number {
     font-size: 32px;
+  }
+  .container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+}
+@media (max-width: 786px) {
+  .kolumn-us,
+  .taible-video,
+  .section-hero-teible,
+  .flex-heder,
+  .header-box,
+  .columns-us,
+  .card-flex,
+  .price-blok-flex,
+  .footer-flex,
+  .taible-link {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .statistics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .body_glases_img {
+    width: 500px;
+    margin: auto;
+  }
+  .awards-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .hero-taitle {
+    font-size: 32px;
+  }
+  .img-us {
+    gap: 200px;
+  }
+  .price-blok-flex {
+    display: flex;
+    align-items: center;
+  }
+  .search-section,
+  .taitle-us,
+  .reviews,
+  .statistics-prise,
+  .price {
+    font-size: 28px;
+  }
+
+  .columns,
+  .card,
+  .price_card {
+    padding: 30px;
+  }
+
+  .subtitle,
+  .subtitle_price,
+  .subtitle_reviews {
+    font-size: 18px;
+  }
+
+  .price_number {
+    font-size: 36px;
+  }
+  .container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .video_art {
+    width: 400px;
+    margin: auto;
+  }
+
+  .kolumn-us {
+    flex-direction: column;
+  }
+  .girl_art {
+    width: 400px;
+    margin: auto;
+  }
+  .awards-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  .flex-heder,
+  .header-box,
+  .card-flex,
+  .footer-flex,
+  .taible-link {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .hero-taitle {
+    font-size: 36px;
+  }
+
+  .search-section,
+  .taitle-us,
+  .reviews,
+  .statistics-prise,
+  .price {
+    font-size: 32px;
+  }
+
+  .columns,
+  .card,
+  .price_card {
+    padding: 36px;
+  }
+
+  .price_number {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1960px) {
+  .container {
+    width: 100%;
+    max-width: 1280px;
+  }
+
+  .hero-taitle {
+    font-size: 50px;
+  }
+
+  .price_number {
+    font-size: 48px;
   }
 }
